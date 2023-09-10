@@ -110,6 +110,8 @@ sudo SERVICE_USER=$USER bash ~/.scrypted/install-scrypted-docker-compose.sh
 
 Scrypted теперь работает по адресу: https://localhost:10443/
 
-Обратите внимание, что это HTTPS и вас попросят подтвердить или игнорировать сертификат веб-сайта.
+Обратите внимание, что это `https` и вас попросят подтвердить или игнорировать сертификат веб-сайта.
 
+## docker-compose.yml location
 
+The [docker-compose.yml](https://github.com/koush/scrypted/blob/main/install/docker/docker-compose.yml) is stored at `~/.scrypted/docker-compose.yml`.
