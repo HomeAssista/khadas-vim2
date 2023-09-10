@@ -12,24 +12,24 @@ sudo apt install network-manager
 ```
 
 2. Затем активируйте NetworkManager и выключите другие инструменты для управления сетью (если они есть):
-```typescript
+```sh
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
 ```
 
 3.Теперь вы можете использовать утилиту nmcli для настройки Wi-Fi:
 - Просмотреть доступные сети Wi-Fi:
-```typescript
+```sh
 nmcli device wifi list
 ```
 - Подключиться к сети Wi-Fi:
-```typescript
+```sh
 nmcli device wifi connect "название_сети" password "пароль"
 ```
 Замените "название_сети" и "пароль" на соответствующие значения вашей Wi-Fi сети.
 
 4. После настройки Wi-Fi соединения вы можете добавить его в автозагрузку после перезагрузки системы:
-```typescript
+```sh
 nmcli connection modify "название_соединения" connection.autoconnect yes
 ```
 Замените "название_соединения" на имя вашего соединения.
