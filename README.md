@@ -121,8 +121,8 @@ The [docker-compose.yml](https://github.com/koush/scrypted/blob/main/install/doc
 2. Dummy-switch
 3. RTSP Camera Plugin
 4. OpenCV
+5. PAM Diff
 
---
 
 
 
