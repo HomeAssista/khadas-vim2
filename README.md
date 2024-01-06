@@ -22,7 +22,7 @@ sudo systemctl start NetworkManager
 ```sh
 nmcli device wifi list
 ```
-- Подключиться к сети Wi-Fi:
+- Подключиться к сети Wi-Fi: Использовать команду Sudo SU
 ```sh
 nmcli device wifi connect "название_сети" password "пароль"
 ```
