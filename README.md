@@ -115,3 +115,15 @@ Scrypted теперь работает по адресу: https://localhost:1044
 ## docker-compose.yml location
 
 The [docker-compose.yml](https://github.com/koush/scrypted/blob/main/install/docker/docker-compose.yml) is stored at `~/.scrypted/docker-compose.yml`.
+
+## Installation 
+1. Homekit
+2. Dummy-switch
+3. RTSP Camera Plugin
+4. OpenCV
+
+--
+
+
+
+
