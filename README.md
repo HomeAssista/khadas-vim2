@@ -122,6 +122,8 @@ The [docker-compose.yml](https://github.com/koush/scrypted/blob/main/install/doc
 3. RTSP Camera Plugin
 4. OpenCV
 5. PAM Diff
+rtsp://192.168.1.70
+
 
 
 
